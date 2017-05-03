@@ -10,11 +10,10 @@
 		816A6C051EB5DECB00E5BF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 816A6C041EB5DECB00E5BF51 /* main.m */; };
 		816A6C081EB5DECB00E5BF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 816A6C071EB5DECB00E5BF51 /* AppDelegate.m */; };
 		816A6C0B1EB5DECB00E5BF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816A6C0A1EB5DECB00E5BF51 /* ViewController.m */; };
-		816A6C0E1EB5DECC00E5BF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816A6C0C1EB5DECB00E5BF51 /* Main.storyboard */; };
 		816A6C101EB5DECC00E5BF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816A6C0F1EB5DECC00E5BF51 /* Assets.xcassets */; };
-		816A6C131EB5DECC00E5BF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816A6C111EB5DECC00E5BF51 /* LaunchScreen.storyboard */; };
 		816A6C1E1EB5DECC00E5BF51 /* CustomTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816A6C1D1EB5DECC00E5BF51 /* CustomTabbarTests.m */; };
 		816A6C291EB5DECC00E5BF51 /* CustomTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816A6C281EB5DECC00E5BF51 /* CustomTabbarUITests.m */; };
+		816A6C3B1EB5EA6D00E5BF51 /* UITabBar+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 816A6C3A1EB5EA6D00E5BF51 /* UITabBar+Custom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +40,7 @@
 		816A6C071EB5DECB00E5BF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		816A6C091EB5DECB00E5BF51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		816A6C0A1EB5DECB00E5BF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		816A6C0D1EB5DECB00E5BF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		816A6C0F1EB5DECC00E5BF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		816A6C121EB5DECC00E5BF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		816A6C141EB5DECC00E5BF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		816A6C191EB5DECC00E5BF51 /* CustomTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		816A6C1D1EB5DECC00E5BF51 /* CustomTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,8 @@
 		816A6C241EB5DECC00E5BF51 /* CustomTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		816A6C281EB5DECC00E5BF51 /* CustomTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarUITests.m; sourceTree = "<group>"; };
 		816A6C2A1EB5DECC00E5BF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816A6C391EB5EA6D00E5BF51 /* UITabBar+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Custom.h"; sourceTree = "<group>"; };
+		816A6C3A1EB5EA6D00E5BF51 /* UITabBar+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Custom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +100,13 @@
 		816A6C021EB5DECB00E5BF51 /* CustomTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				816A6C391EB5EA6D00E5BF51 /* UITabBar+Custom.h */,
+				816A6C3A1EB5EA6D00E5BF51 /* UITabBar+Custom.m */,
 				816A6C061EB5DECB00E5BF51 /* AppDelegate.h */,
 				816A6C071EB5DECB00E5BF51 /* AppDelegate.m */,
 				816A6C091EB5DECB00E5BF51 /* ViewController.h */,
 				816A6C0A1EB5DECB00E5BF51 /* ViewController.m */,
-				816A6C0C1EB5DECB00E5BF51 /* Main.storyboard */,
 				816A6C0F1EB5DECC00E5BF51 /* Assets.xcassets */,
-				816A6C111EB5DECC00E5BF51 /* LaunchScreen.storyboard */,
 				816A6C141EB5DECC00E5BF51 /* Info.plist */,
 				816A6C031EB5DECB00E5BF51 /* Supporting Files */,
 			);
@@ -246,9 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				816A6C131EB5DECC00E5BF51 /* LaunchScreen.storyboard in Resources */,
 				816A6C101EB5DECC00E5BF51 /* Assets.xcassets in Resources */,
-				816A6C0E1EB5DECC00E5BF51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816A6C3B1EB5EA6D00E5BF51 /* UITabBar+Custom.m in Sources */,
 				816A6C0B1EB5DECB00E5BF51 /* ViewController.m in Sources */,
 				816A6C081EB5DECB00E5BF51 /* AppDelegate.m in Sources */,
 				816A6C051EB5DECB00E5BF51 /* main.m in Sources */,
@@ -309,25 +307,6 @@
 			targetProxy = 816A6C251EB5DECC00E5BF51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		816A6C0C1EB5DECB00E5BF51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				816A6C0D1EB5DECB00E5BF51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		816A6C111EB5DECC00E5BF51 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				816A6C121EB5DECC00E5BF51 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		816A6C2B1EB5DECC00E5BF51 /* Debug */ = {
@@ -424,7 +403,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whq.test.CustomTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +416,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whq.test.CustomTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
